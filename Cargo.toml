@@ -1,0 +1,10 @@
+[package]
+name = "edifm"
+version = "0.0.0"
+authors = ["Charlie Somerville <charlie@charlie.bz>"]
+edition = "2018"
+
+[dependencies]
+minimp3 = "0.3"
+lame = "0.1"
+rand = "0.6"
