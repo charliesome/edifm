@@ -5,6 +5,9 @@ authors = ["Charlie Somerville <charlie@charlie.bz>"]
 edition = "2018"
 
 [dependencies]
-minimp3 = "0.3"
+chrono = "0.4"
+diesel = { version = "1.0.0", features = ["postgres", "chrono"] }
+dotenv = "0.9.0"
 lame = "0.1"
+minimp3 = "0.3"
 rand = "0.6"
